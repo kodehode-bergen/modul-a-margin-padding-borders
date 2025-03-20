@@ -1,0 +1,71 @@
+/* ID: bulbasaur-evo, charmander-evo, squirtle-evo */
+/* Class: grass, fire, water */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(246, 246, 189);
+}
+header {
+  background-color: burlywood;
+  height: 100px;
+  max-width: 100svw;
+  padding: 20px 200px;
+}
+h1 {
+  font-family: "Bytesized", sans-serif;
+  font-size: 50px;
+}
+main {
+  width: 800px;
+  margin: 10px auto;
+  /* display: block; */
+  /* padding: 10px 60px; */
+}
+h2,
+p {
+  font-family: "Chewy", system-ui;
+}
+img {
+  width: 100px;
+}
+#bulbasaur-evo,
+#charmander-evo,
+#squirtle-evo {
+  display: block;
+  text-align: center;
+  margin: 5px auto;
+}
+#bulbasaur-evo,
+.grass {
+  display: inline-block;
+}
+.grass {
+  background-color: rgb(167, 214, 121);
+  border: 10px inset green;
+}
+.grass,
+.fire,
+.water {
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 5px;
+}
+#charmander-evo,
+.fire {
+  display: inline-block;
+}
+.fire {
+  background-color: rgb(248, 148, 111);
+  border: 10px rgb(227, 61, 61) double;
+}
+#squirtle-evo,
+.water {
+  display: inline-block;
+}
+.water {
+  background-color: rgb(144, 226, 199);
+  border: 10px rgb(66, 66, 212) groove;
+}
